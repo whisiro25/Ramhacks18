@@ -1,0 +1,21 @@
+{
+
+  "description": "Identifies whether a twitter handle is a bot or troll",
+  "manifest_version": 2,
+  "name": "Troll Bot",
+  "version": "1.0",
+  "icons": {
+    "48": "icons/twitter.png"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/twitter.png",
+    "default_title": "troll_bot",
+    "default_popup": "popup/bot.html"
+  }
+
+}

@@ -1,0 +1,32 @@
+ @import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+html, body {
+  width: 300px;
+  height: 320px;
+  overflow: hidden;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #FFFFFF;
+}
+
+.hidden {
+  display: none;
+}
+
+
+.button {
+  margin: 3% auto;
+  padding: 4px;
+  text-align: center;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.default_pic { 
+  margin: auto;
+  margin-top: 20px;
+  width:120px;
+  height:auto;
+}
+
+
